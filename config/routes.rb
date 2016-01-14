@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :comments
+  resources :blogposts
+  resources :comments
+  resources :comments
+  resources :comments
+  resources :comments
   resources :blogposts
   
   # The priority is based upon order of creation: first created -> highest priority.
